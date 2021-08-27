@@ -1,0 +1,18 @@
+.parent{
+  background-color:grey;
+  color: aliceblue;
+  border: 2px solid black;
+  margin: 4px;
+  border-radius: 5px;
+}
+.child{
+  background-color: rgb(78, 77, 77);
+  color: aliceblue;
+  border: 2px solid black;
+  margin: 4px;
+  border-radius: 5px;
+}
+.inp{
+  border-radius: 5px;
+  margin:5px;
+}
