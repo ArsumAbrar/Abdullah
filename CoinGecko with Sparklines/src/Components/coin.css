@@ -1,0 +1,107 @@
+*{
+    font-weight: 500;
+}
+
+.rank{
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    width:max-content;
+
+}
+
+.perc{
+    font-size: xx-large;
+}
+
+#outer
+{
+    width:100%;
+}
+.inner
+{
+    
+    display: inline-block;
+}
+.inner1
+{
+    text-align: left;
+    display: inline-block;
+}
+.inner2
+{
+    margin-left: 150px;
+    display: inline-block;
+}
+.inner3
+{
+    margin-left: 150px;
+    display: inline-block;
+}
+.dividier{
+    margin-top: 0px;
+}
+.detailone{
+    margin-top: -12px;
+    margin-bottom: 2px;
+}
+.dtl{
+    font-weight: 400;
+}
+.btm{
+    position: relative;
+    top: 227px;
+}
+@media only screen and (max-width: 768px) {
+    .btm{
+        top:-15px
+    }
+  }
+.btn{
+    color: white;
+    border-radius: 10px;
+}
+.converter{
+    text-align: center;
+    background-color: rgba(219, 219, 219, 0.829);
+}
+.navitems{
+    border-radius: 25px;
+}
+.stats{
+    background-color: silver;
+    border-radius: 10px;
+}
+.coin{
+    text-decoration: none;
+}
+.variations{
+    background-color: white;
+    border: 1px solid silver;
+    box-shadow: 2px 3px 5px #c9c9c9;
+    color: black;
+    outline: none;
+}
+.variations:active{
+    background-color: blue;
+    box-shadow: none;
+    outline: none;
+
+}
+
+.variations::after{
+    background-color: blue;
+    box-shadow: none;
+    outline: none;
+
+}
+.variations:focus{
+    background-color: silver;
+    box-shadow: none;
+    outline: none;
+}
+.variations::selection{
+    background-color: silver;
+    box-shadow: none;
+    outline: none;
+}
